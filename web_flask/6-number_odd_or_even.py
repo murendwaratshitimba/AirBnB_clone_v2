@@ -45,7 +45,7 @@ def template_number(n):
 
 
 @app.route('/number_odd_or_even/<int:n>', strict_slashes=False)
-def template_number(n):
+def template_even_odd(n):
     """ HTML page only if n is an integer"""
 
     number_is = 'odd'
