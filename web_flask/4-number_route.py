@@ -35,7 +35,7 @@ def is_magic(text='is cool'):
 @app.route('/number/<int:n>', strict_slashes=False)
 def is_number(n):
     """ “n is a number” only if n is an integer"""
-    return f"{n:d}"
+    return f"{n:d} is a number"
 
 
 if __name__ == '__main__':
